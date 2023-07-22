@@ -16,6 +16,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 html {
@@ -28,7 +29,7 @@ html {
 body {
   background-color: var(--very-light-gray);
   height: 100%;
-  width: 30%;
+  width: 100%;
 }
 
 main {
@@ -36,6 +37,7 @@ main {
   grid-template-columns: 1fr;
   grid-template-rows: repeat(3, 1fr);
   padding: 4vh 1.5rem;
+  width: 100%;
 }
 
 .sedan {
