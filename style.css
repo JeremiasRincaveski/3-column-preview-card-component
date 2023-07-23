@@ -94,6 +94,12 @@ main {
   margin-bottom: 1rem;
 }
 
+.card__button:hover {
+  background-color: transparent;
+  outline: 2px solid var(--transparent-white);
+  color: var(--transparent-white);
+}
+
 @media screen and (min-width: 850px) {
   html {
     height: 100vh;
