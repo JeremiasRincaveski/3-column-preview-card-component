@@ -111,6 +111,7 @@ main {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr;
     height: 100%;
+    max-height: fit-content;
     align-items: center;
   }
 
@@ -123,7 +124,7 @@ main {
   }
 
   .card {
-    height: 60%;
+    height: fit-content;
     padding: 3rem 0 3rem 4rem;
   }
 
